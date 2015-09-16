@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8"/>
+	<meta name="description" content="Nigeria's no. 1 website for getting the latest hits from our very own music industry. Know what's trending in Naija's music scene and stay up to date with the latest tracks and videos."/>
+	<meta name="keywords" content="Nigeria, Music, Nigerian Music, Videos, Nigerian Music Videos, Nigerian Videos, Latest Naija Hits"/>
+	<link rel="icon" href="img/icon.png" />
+	<link rel="stylesheet" type="text/css" href="css/audio.css"/>
+	<script type="text/javascript" src="js/jquery-1.7.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<title>Naija Hits -- Latest Tracks</title>
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<header class="wsHeader" role="banner">
+
+			<div>
+				<ul id="horNav">
+					<li>
+						<a href="home.html">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="audio.html">
+							Tracks
+						</a>
+					</li>
+					<li>
+						<a href="video.html">
+							Videos
+						</a>
+					</li>
+					<li>
+						<a href="aboutUs.html">
+							About Us
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							Contact
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</header>
+
+		<main id="content">
+
+			<div class="musicPlaylist">
+				<audio id="audio" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+					<source type="audio/mp3"
+					src="songs/shut_down.mp3">
+					Sorry, your browser does not support HTML5 audio.
+				</audio>
+				<ul id="playlist">
+					<li class="active">
+						<a href="songs/shut_down.mp3">
+							Shut Down - Phyno
+						</a>
+					</li>
+					<li>
+						<a href="songs/soke.mp3">
+							Soke - Burna Boy
+						</a>
+					</li>
+					<li>
+						<a href="songs/tonight.mp3">
+							Tonight - Burna Boy
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="tracks">
+				<div id="phynoTrack">
+					<img src="img/phyno.jpg" width="200px" height="200px" />
+					<p>Phyno - Shut Down<p>
+					<audio preload="auto" tabindex="0" controls="" type="audio/mpeg">
+						<source type="audio/mp3"
+						src="songs/shut_down.mp3">
+					</audio>
+				</div>
+
+				<div id="burnaTrack">
+					<img src="img/burna_boy.jpg" width="200px" height="200px" />
+					<p>Burna Boy - Soke<p>
+					<audio preload="auto" tabindex="0" controls="" type="audio/mpeg">
+						<source type="audio/mp3"
+						src="songs/soke.mp3">
+					</audio>
+				</div>
+
+				<div  id="burnaTrack2">
+					<img src="img/burna_boy2.jpg" width="200px" height="200px" />
+					<p>Burna Boy - Tonight<p>
+					<audio preload="auto" tabindex="0" controls="" type="audio/mpeg">
+						<source type="audio/mp3"
+						src="songs/tonight.mp3">
+					</audio>
+				</div>
+			</div>
+
+		</main>
+
+		<footer>
+			<p style="text-align:center;">Copyright (c) 2015
+				<span>
+					powered by Innovation!
+				</span>
+			</p>
+		</footer>
+
+	</div>
+
+</body>
+
+<script type="text/javascript" src="js/playlist.js"></script>
+
+</html>

@@ -1,0 +1,143 @@
+body{
+	background-image: url(../img/background.jpg);
+}
+
+#horNav{
+	list-style-type: none;
+	background-color: rgba(0,140,65,1);
+	display: block;
+	margin-left: -10px;
+	margin-top: -8px;
+	width: 100%;
+	text-align: center;
+}
+
+#horNav li{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+#horNav li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	padding-left: 10px;
+	font-family: Garamond;
+}
+
+.container{
+	clear: both;
+	width:70%;
+	background-color:rgba(44, 62, 80,0.5);
+	margin: 0 auto;
+	min-height: 500px;
+	/*opacity: 0.5;*/
+}
+.head{
+	
+	display: block;
+	width:100%; 
+	/*height:70px;*/
+	background-color: white;
+}
+
+.navbar{
+	float: right;
+	margin-right: 15%;
+	min-height: 70px;
+}
+.nav li{
+	display: inline;
+	/*background-color: red;*/
+	list-style-type: none;
+	margin-right: 5px;
+	padding: 10px 5px;
+
+}
+.nav li a{
+	text-decoration: none;
+	color:#42CEFF;
+	font-family: Garamond;
+	font-size: 18px;
+}
+.nav li:hover{
+	background-color: rgba(255,255,255,0.5);
+	
+	/*opacity: 0.5;*/
+}
+.nav li:hover a{
+	font-size: 20px;
+	/*color: white*/
+}
+.row{
+	clear: both;
+	margin-top:  12%;
+	width: 100%;
+}
+.col{
+	width:50%;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+.col h1,h2,h3,h4,h5,h6{
+	margin-top: 25px;
+	text-align: center;
+	color: #42CEFF;
+	font-style: italic;
+	word-spacing: 10px;
+}
+h1{
+	font-size: 46px;
+}
+.left{
+	width: 70%;
+	float: left;
+}
+.right{
+	width: 30%;
+	float:right;
+	/*padding: 5px;*/
+	
+
+}
+
+video{
+	width: 100%;
+	height: 500px;
+	opacity: 0.8;
+}
+.playlist{
+	clear: both;
+	background-color: rgba(44, 62, 80,1.0);
+	margin: 2px auto;
+	padding: 0;
+	width: 95%;
+	top: 0;
+
+}
+.playlist h3,p{
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-style: italic;
+	/*word-spacing: 10px;*/
+
+}
+.playlist:hover{
+	background-color: rgba(44, 62, 80,0.5);
+	cursor: pointer;
+
+}
+
+footer{
+	background-color: #7FFF00;
+	padding: 20px -10px 10px -10px;
+	text-indent: 10px;
+	height: 35px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+footer span{
+	float: right;
+	margin-right: 20px;
+}
