@@ -1,28 +1,8 @@
+@import "navbar.css";
+@import "footer.css";
+
 body{
 	background-image: url(../img/background.jpg);
-}
-
-#horNav{
-	list-style-type: none;
-	background-color: rgba(0,140,65,1);
-	display: block;
-	margin-left: -10px;
-	margin-top: -8px;
-	width: 100%;
-	text-align: center;
-}
-
-#horNav li{
-	display: inline-block;
-	padding-right: 50px;
-}
-
-#horNav li a{
-	text-decoration: none;
-	color: #fff;
-	font-size: 25px;
-	padding-left: 10px;
-	font-family: Garamond;
 }
 
 .container{
@@ -127,17 +107,4 @@ video{
 	background-color: rgba(44, 62, 80,0.5);
 	cursor: pointer;
 
-}
-
-footer{
-	background-color: #7FFF00;
-	padding: 20px -10px 10px -10px;
-	text-indent: 10px;
-	height: 35px;
-	border: 1px solid #fff;
-	border-radius: 5px;
-}
-footer span{
-	float: right;
-	margin-right: 20px;
 }
